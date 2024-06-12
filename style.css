@@ -1,5 +1,5 @@
 body {
- height: 100vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
@@ -20,7 +20,7 @@ body {
   text-align: center;
 }
 
-h1{
+h1 {
   margin: 0;
 }
 
@@ -75,14 +75,16 @@ footer {
   margin-top: 10px;
 }
 
-footer, p{
+footer,
+p {
   color: white;
 }
 
-@media  (min-width: 700px) and (max-width: 1024px) {
-    label,
-    legend {
-      display: block;
-      font-size: 15px;
-    }
+@media (min-width: 700px) and (max-width: 1024px) {
+
+  label,
+  legend {
+    display: block;
+    font-size: 15px;
+  }
 }
