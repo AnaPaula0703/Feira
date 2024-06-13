@@ -4,12 +4,10 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  background-image: url("./IMG-20240613-WA0000.jpg");
+  background-image: url("./fundoPC.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .div-conteudo {
   top: 0;
@@ -72,22 +70,43 @@ select:hover {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.div-footer {
   background-color: white;
-  height: auto;
-  width: 100vw;
+  text-align: center;
   margin-top: 5px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer,
-p {
-  color: white;
+.logo {
+  margin: 0;
+  padding: 0;
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+
+@media (min-width: 200px) and (max-width: 1024px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-image: url("./fundoCLL.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   label,
   legend {
     display: block;
     font-size: 15px;
   }
+
 }
