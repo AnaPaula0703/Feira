@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  background-image: url("./fundo.jpg");
+  background-image: url("./IMG-20240613-WA0000.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,6 +28,7 @@ label,
 legend {
   display: block;
   font-size: 20px;
+  margin: 0;
 }
 
 select {
@@ -36,6 +37,7 @@ select {
   outline: 0;
   border-radius: 5px;
   font-size: 15px;
+  margin: 0;
 }
 
 select:hover {
@@ -57,6 +59,7 @@ select:hover {
   outline: none;
   border-radius: 5px;
   font-size: 15px;
+  margin-bottom: 5px;
 }
 
 .enviar:hover {
@@ -72,7 +75,7 @@ footer {
   background-color: white;
   height: auto;
   width: 100vw;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 footer,
